@@ -7,7 +7,7 @@
 }
 
 body {
-    line-height: 40px;
+    line-height: 35px;
 }
 /* UTILITYS */
 .container {
@@ -30,6 +30,7 @@ body {
     padding: 0 15px;
     border-radius: 50px;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .btn-big {
@@ -49,12 +50,33 @@ body {
     background-color: #000;
     color: #fff;
 }
+
+.col-blue {
+    background-color: #8ea1e1;
+    color: #fff;
+}
 .py-150 {
     padding: 150px 0;
 }
 
 .py-20 {
     padding: 20px 0;
+}
+
+.px-90 {
+    padding-left:90px;
+    padding-right:90px;
+}
+
+.pl-260 {
+    padding-left: 260px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pr-15 {
+    padding-right: 15px;
 }
 
 .float-l {
@@ -67,6 +89,22 @@ body {
 
 .bgc-blue {
     background-color: #255ee9;
+}
+.bgc-grey {
+    background-color: #f6f6f6;
+}
+.titole {
+    font-size: 50px;
+    line-height:55px;
+    padding-bottom: 30px;
+}
+
+.paragraph {
+    font-size: 23px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* NAV */
@@ -87,7 +125,7 @@ nav ul li a {
 }
 
 nav ul li:last-child {
-    padding-left: 320px;
+    padding-left: 315px;
     color: #000;
 }
 .discord-img {
@@ -104,6 +142,7 @@ nav ul li:last-child {
 .hero-text {
     color: #fff;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .hero .hero-text h1 {
@@ -114,19 +153,40 @@ nav ul li:last-child {
 
 .hero .hero-text p {
     padding-bottom: 40px;
-    font-size: 23px;
-    font-weight: 600;
 }
 
 .hero-text a {
     margin: 15px;
 }
 
-.hero-text a span {
-    padding-right: 15px;
-}
 /* MAIN */
 
+.img-section {
+    width: 70%;
+    margin: auto;
+}
 
+.section-text {
+    width: 30%;
+}
 
+.img-big {
+    width: 100%;
+    object-fit: contain;
+}
+
+.title-stars {
+    position: relative;
+    height: 50px;
+    width: 35%;
+    margin: 0 auto 30px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
+.title-stars h3 {
+    position: absolute;
+    top: 48%;
+    left: 13%;
+}
 /* FOOTER */
