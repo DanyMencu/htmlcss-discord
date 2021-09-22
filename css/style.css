@@ -5,3 +5,52 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+/* UTILITYS */
+.container {
+    width: 80%;
+    margin: 0 10%;
+    background-color: #3161e0;
+}
+
+.bgc-blue {
+/*     background-color: #3161e0; */
+}
+
+/* HEADER */
+
+.nav-header {
+    padding: 10px 0;
+
+}
+
+.nav-header ul {
+    width: 69%;
+    display: inline-block;
+}
+
+.nav-header ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.discord-img {
+    width: 30%;
+    display: inline-block;
+}
+
+.float-r {
+    float: right;
+}
+
+/* MAIN */
+
+
+
+/* FOOTER */
