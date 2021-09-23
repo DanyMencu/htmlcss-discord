@@ -55,12 +55,33 @@ body {
     background-color: #8ea1e1;
     color: #fff;
 }
+
+.bgc-dark {
+    background-color: #23272a;
+}
+
 .py-150 {
     padding: 150px 0;
 }
 
 .py-20 {
     padding: 20px 0;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
 }
 
 .px-90 {
@@ -77,6 +98,10 @@ body {
 
 .pr-15 {
     padding-right: 15px;
+}
+
+.p-15 {
+    padding: 15px;
 }
 
 .float-l {
@@ -190,3 +215,68 @@ nav ul li:last-child {
     left: 13%;
 }
 /* FOOTER */
+
+footer .container section {
+    width: 15%;
+    float: left;
+}
+
+.logos-section {
+    width: 40%;
+    float: left;
+}
+
+footer section ul li {
+    list-style: none;
+}
+
+footer section ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer section ul .li-title a {
+    color: #7289da;
+    font-weight: 600;
+}
+
+.bb-blue {
+    border-bottom: 1px solid #7289da;
+}
+
+.btn-lenguage img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.btn-lenguage button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: white;
+}
+
+.btn-lenguage button span {
+    vertical-align: super;
+    font-size: 20px;
+}
+
+.logos-section h2 {
+    line-height: 50px;
+    font-size: 50px;
+    color: #7289da;
+}
+
+.logos-section i {
+    color: white;
+    padding-right: 15px;
+}
+
+.half-container {
+    width: 50%;
+    float: left;
+}
+
+.text-left {
+    text-align: right;
+}
